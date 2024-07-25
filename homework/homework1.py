@@ -6,8 +6,18 @@
 # - I want the function to keep asking the user for numbers until the user types 'q'
 def is_even(x):
     if x % 2 == 0:
-        return True
+        print(True)
     else:
-        return False
-x = int(input("Enter a number of choice:"))    
-print(is_even(x))
+        print(False)
+
+
+def main():
+    while True:
+        x = input("Enter a number of choice:")
+        if x == 'q':
+            break
+        is_even(int(x))
+
+
+
+main()
