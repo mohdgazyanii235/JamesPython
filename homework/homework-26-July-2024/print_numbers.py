@@ -11,3 +11,8 @@ I want the function to print:
 4
 5
 '''
+def numbers(n):
+    for i in range(0,n+1):
+        print(i)
+n = int(input('Enter a number of choice: '))
+numbers(n)

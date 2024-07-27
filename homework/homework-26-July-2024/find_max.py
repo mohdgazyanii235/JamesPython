@@ -8,3 +8,18 @@ The function will return:
 
 5
 '''
+def find_max():
+    array = []
+    while True:
+        num  = input('Enter a number: ')
+        if num == 'q':
+            break
+        else:
+            True
+            array.append()
+    array.sort()
+    return array()
+overall_max =  find_max()
+print(overall_max)
+
+#I am not sure why it says '0 arguments given'

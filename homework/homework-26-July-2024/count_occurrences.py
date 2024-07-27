@@ -10,3 +10,18 @@ The function will return:
 
 This is because the number 2 (the second parameter) appears 3 times in the list [1, 2, 3, 4, 5, 2, 2] (the first parameter).
 '''
+
+
+
+def inputs():
+    array = []
+    while True:
+        x = input('Enter a number: ')
+        if x == 'q':
+            break
+        else:
+            array.append(int(x))
+    return array,2
+end = inputs()
+print(end)
+#Everything works apart from printing the number of 2s 

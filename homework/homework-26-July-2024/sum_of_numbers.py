@@ -7,3 +7,13 @@ sum_of_numbers(5)
 The function will return:
 1 + 2 + 3 + 4 + 5 = 15
 '''
+def sum_of(n):
+    array = []
+    for i in range(0,n+1):
+        array.append(i)
+    return sum(array)
+n = int(input('Enter a number of choice: '))
+summary = sum_of(n)
+print(summary)
+
+#I am not sure how to print out '1 + 2 + 3' etc

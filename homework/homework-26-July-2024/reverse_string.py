@@ -8,3 +8,11 @@ The function will return:
 
 "olleh"
 '''
+def reverse(n):
+    return n[::-1]
+            
+n = input('Enter a word of choice:')
+new = reverse(n)
+print(new)
+
+#I used the internet to find out he '[::-1]'
