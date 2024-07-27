@@ -23,3 +23,9 @@ overall_max =  find_max()
 print(overall_max)
 
 #I am not sure why it says '0 arguments given'
+
+'''
+How many arguments/parameters did the question ask you to take?
+What is the function supposed to return?
+What if I say you are not allowed to use array.sort()? How would you solve this problem?
+'''

@@ -29,3 +29,10 @@ fibonacci(n,old_num,new_num,Temporary)
 # To resolve this I just printed '1' at the start ut this causes there
 # to be one more number hen intended
 #E.g. If you input 5, it will print: 1 ,1, 2, 3, 5, 8
+
+
+'''
+Think again James, what is the question asking? Do you need the function to print anything? or return?
+What is the function supposed to return?
+Is the function asking you to print the entire fibnacci sequence or just the nth number in the sequence?
+'''

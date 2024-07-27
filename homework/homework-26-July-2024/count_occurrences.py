@@ -24,4 +24,16 @@ def inputs():
     return array,2
 end = inputs()
 print(end)
-#Everything works apart from printing the number of 2s 
+#Everything works apart from printing the number of 2s
+
+
+'''
+This solution is incorrect, I want you read the question again and understand what it is asking you to do.
+Hint: What is the name of the function you are supposed to write?
+Hint: How many parameters did the question ask you to have in the function?
+Hint: What are the parameters supposed to be?
+Hint: What is the function supposed to return?
+Hint: When are you supposed to take the input from the user? Inside the function or outside?
+
+Try doing this again and we will discuss it in the next class. Solve it below in new function called count_occurrences_v2(array, num) and print the result.
+'''
