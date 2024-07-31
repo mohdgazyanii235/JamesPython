@@ -13,15 +13,24 @@ This is because the number 2 (the second parameter) appears 3 times in the list 
 
 
 
-def inputs():
+def inputs(x,MAX,i,n):
     array = []
-    while True:
-        x = input('Enter a number: ')
-        if x == 'q':
+    while x < MAX:
+        i = input('Enter a number:')
+        if i == 'q':
             break
         else:
-            array.append(int(x))
-    return array,2
-end = inputs()
+            array.append(int(i))
+            x += 1
+    return array.count(n)
+n = int(input('which number do you want to check the array for?: '))
+i = input('Enter a number:')
+x = 0
+MAX = 10
+end = inputs(x,MAX,i,n)
 print(end)
-#Everything works apart from printing the number of 2s 
+#The only problem is that whne you input the first number, it is not taken into consideration
+#By this I mean:
+#-assume we are checking for 2
+# 2223 would output 2 2's found
+# 3222 would output 3 2's found

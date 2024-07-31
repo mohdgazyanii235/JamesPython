@@ -8,18 +8,21 @@ The function will return:
 
 5
 '''
-def find_max():
+def find_max(num, x, MAX):
     array = []
-    while True:
-        num  = input('Enter a number: ')
+    while x < MAX:
+        num = input('Enter a number of choice:')
         if num == 'q':
             break
         else:
-            True
-            array.append()
+            array.append(num)
     array.sort()
-    return array()
-overall_max =  find_max()
+    return array[-1]
+num = input('Enter a number of choice:')
+x = 0
+MAX = 10
+overall_max =  find_max(num,x,MAX)
 print(overall_max)
 
-#I am not sure why it says '0 arguments given'
+#I am not sure why I need t define num twice but that is the only way it works
+#For some reason it only works for some numbers and not others 
