@@ -11,9 +11,15 @@ The function will return:
 Because the string "hello" has 2 vowels (e and o).
 '''
 def count_vowels(sentence):
-    
+    vowel_count = 0
+    for i in sentence:
+        if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u':
+            vowel_count +=1
+    return vowel_count
 
-        
+sentence = input('Enter a sentence:')
+answer = count_vowels(sentence)
+print(answer)
 
 
 #I used the internet for help and I still could not do this one 

@@ -9,12 +9,15 @@ The function will return:
 5
 '''
 def find_max(array_1):
-    
+    current = array_1[0]
+    for i in array_1:
+        if i > current:
+            current = i
+    return current
 
-
-#I am not sure why I need t define num twice but that is the only way it works
-#For some reason it only works for some numbers and not others 
-#I am not sure why it says '0 arguments given'
+array_1 = [23,65,22,5579,43,56,7,34]
+answer = find_max(array_1)
+print(answer)
 
 '''
 How many arguments/parameters did the question ask you to take?
