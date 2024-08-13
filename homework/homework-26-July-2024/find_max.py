@@ -9,15 +9,7 @@ The function will return:
 5
 '''
 def find_max(array_1):
-    curr = array_1[0]
-    for i in array_1:
-        if i > curr:
-            curr = i
-    return curr
-
-array_1 = [2,4,6,9,2,7]
-answer = find_max(array_1)
-print(answer)
+    
 
 
 #I am not sure why I need t define num twice but that is the only way it works

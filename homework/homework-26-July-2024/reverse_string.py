@@ -17,16 +17,7 @@ The function will return:
 #I used the internet to find out he '[::-1]'
 
 def new_reverse(sentence):
-    rev_string = ""
-    i = len(sentence) -1
-    while i > -1:
-        rev_string += sentence[i]
-        i -= 1
-    return rev_string
-
-sentence = input('Enter a sentence:') 
-answer = new_reverse(sentence)
-print(answer)
+    
 
 
 '''
