@@ -4,7 +4,7 @@ Hi, James! I have a task for you. I need you to write a function that will print
 so when the function is called like this:
 print_numbers(5)
 
-I want the function to print:
+I want the function to prsint:
 1
 2
 3
