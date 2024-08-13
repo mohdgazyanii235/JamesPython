@@ -8,14 +8,26 @@ The function will return:
 
 "olleh"
 '''
-def reverse(n):
-    return n[::-1]
-            
-n = input('Enter a word of choice:')
-new = reverse(n)
-print(new)
+# def reverse(n):
+#     return n[::-1]
+# n = input('Enter a word of choice:')
+# new = reverse(n)
+# print(new)
 
 #I used the internet to find out he '[::-1]'
+
+def new_reverse(sentence):
+    rev_string = ""
+    i = len(sentence) -1
+    while i > -1:
+        rev_string += sentence[i]
+        i -= 1
+    return rev_string
+
+sentence = input('Enter a sentence:') 
+answer = new_reverse(sentence)
+print(answer)
+
 
 '''
 Well done James, I like your solution and this is infact the best way to solve this problem.
