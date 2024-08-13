@@ -24,12 +24,12 @@ def vowels(string):
 string = input('Enter a word: ')
 vowels(string)
 
-<<<<<<< HEAD
+
 #I used the internet for help and I still could not do this one 
 #Hint: How many parameters does the question ask you to have in the function?
 #Hint: What is the function supposed to return?
 #Hint: Is your function returning anything?
-=======
+
     elif E or e in stri:
         e_count = e_count + 1
     
@@ -73,4 +73,3 @@ Hint: How many parameters does the question ask you to have in the function?
 Hint: What is the function supposed to return?
 Hint: Is your function returning anything?
 '''
->>>>>>> 2e30c7ff4dcdaf94b8209429a99c2324a63d7952
