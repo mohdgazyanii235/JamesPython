@@ -11,6 +11,30 @@ The function will return:
 This is because the number 2 (the second parameter) appears 3 times in the list [1, 2, 3, 4, 5, 2, 2] (the first parameter).
 '''
 
+def inputs(array):
+    while True:
+        x = input('Enter a number: ')
+        if x == 'q':
+            break
+        else:
+            array.append(int(x))
+    return array
+
+array = []
+answer = inputs(array)
 
 
-def inputs(array, num):
+def check_array(num):
+    appearances = 0
+    for i in answer:
+        if i == num:
+            appearances += 1
+    return appearances
+
+num = int(input('What number do you want to check the array for: '))
+new_answer = check_array(num)
+print(new_answer)
+
+
+
+
