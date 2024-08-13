@@ -17,3 +17,13 @@ summary = sum_of(n)
 print(summary)
 
 #I am not sure how to print out '1 + 2 + 3' etc
+
+'''
+Well done James, I really like your solution and the way you have thought through this problem.
+
+However you are creating an array in this solution and you have remember that an array is taking unnecessary space in memory.
+
+Think of a way to solve this problem without creating an array, instead add the solution to a variable every time the loop runs.
+
+I want you to solve this in another function below and call it sum_of_numbers_v2(n) and print the result.
+'''

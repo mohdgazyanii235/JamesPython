@@ -16,3 +16,7 @@ def numbers(n):
         print(i)
 n = int(input('Enter a number of choice: '))
 numbers(n)
+
+'''
+Well done! I like your solution and the way you have thought through this problem.
+'''
