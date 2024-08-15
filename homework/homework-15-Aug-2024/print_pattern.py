@@ -25,5 +25,15 @@ To help you out here is a hint:
 I am helping you out with the function signature below:
 '''
 
-def pattern_printer(row, height):
+def pattern_printer(height, row):
+    i = 0
+    while True:
+        if i < height:
+            print(row * 'X')
+            i += 1
     
+
+row = int(input('How many units wide would you like the design: '))
+height = int(input('How many units high would you like the design: '))
+
+pattern_printer(height,row)
