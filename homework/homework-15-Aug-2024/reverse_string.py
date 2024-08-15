@@ -12,13 +12,26 @@ The function will return:
 
 "olleh"
 '''
+
+
+
 def new_reverse(sentence):
     reverse = ""
-    n = len(sentence) -1 
-    for i in sentence:
-        i += reverse
-        n -= 1
+    i = len(sentence) -1
+    a = sentence(i) 
+    while i > -1:
+        reverse += a
+        i -= 1
     return reverse
-sentence = input('Enter a sentence: ')
+sentence = input('Enter a sentence:')
 answer = new_reverse(sentence)
 print(answer)
+
+
+
+
+
+
+
+
+
