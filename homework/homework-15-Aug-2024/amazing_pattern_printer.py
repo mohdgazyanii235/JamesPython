@@ -38,7 +38,7 @@ amazing_pattern_printer(5)
 # After j has been incramented, the output (0 or X) is printed to the user
 # i is then incremented and j is equated to 0 
 # The function is then called outside the loop with the parameter inside the brackets which is 'size'
----QUESTIONS---
+# QUESTIONS
 # - I am not sure what 'end=' does. I tried to base my answer around what I understood and what I gathered from running the code a few times
 # - I am not sure why j is increented and then equated to 0 
 '''
