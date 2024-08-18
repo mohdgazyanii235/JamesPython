@@ -18,20 +18,12 @@ The function will return:
 def new_reverse(sentence):
     reverse = ""
     i = len(sentence) -1
-    a = sentence(i) 
-    while i > -1:
-        reverse += a
+    while  i > -1:
+        a = sentence[i]
+        reverse += a 
         i -= 1
+
     return reverse
-sentence = input('Enter a sentence:')
+sentence = input("Enter a sentence: ")
 answer = new_reverse(sentence)
 print(answer)
-
-
-
-
-
-
-
-
-

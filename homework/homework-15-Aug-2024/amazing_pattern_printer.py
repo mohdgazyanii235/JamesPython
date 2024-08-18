@@ -18,17 +18,18 @@ def amazing_pattern_printer(size):
     j = 0
     while i < size:
         while j < size:
-            if i == j:
-                print("O", end="")
+            if j == i:
+                print(end="0")
             else:
-                print("X", end="")
+                print(end="X")
             j += 1
         print()
         i += 1
         j = 0
 
-amazing_pattern_printer(5)
-#The function amazing pattern printer takes the parameter '5' which is definedd when the function is called on line 30
+user = int(input('Enter the size:'))
+amazing_pattern_printer(user)
+# The function amazing pattern printer takes the parameter '5' which is definedd when the function is called on line 30
 # i and j are both equated to the values 0
 # On line 19, a while loop is used, the algorithm will enter the loop until i is not less than 5
 # To carry on in this loop, another while loop is created which allows you to continue if j is less then 5
@@ -46,7 +47,12 @@ Write your explanation below this:
 
 ----- START ----
 #
-
+0XXXX
+X0XXX
+XX0XX
+XXX0X
+XXXX0
 ---- END ----
 
 '''
+    
