@@ -13,8 +13,6 @@ Basically you need to answer the following questions in your essay:
 - How do you call this function?
 '''
 def print_plus_x_pattern(size):
-    i = 0
-    j = 0
     for i in range(size):
         for j in range(size):
             if i == j or i + j == size - 1:
@@ -23,13 +21,11 @@ def print_plus_x_pattern(size):
                 print('X', end='')
             elif i == (size/2) -1 or j == (size/2) -1:
                 print('X', end='')
+            elif i == 0 or i == size -1 or j == 0 or j == size -1:
+                print('X', end='')
             else:
                 print('0', end='')
-            j += 1
         print()
-        i += 1
-        j = 0
-
 
 n = int(input("Enter the matrix size: "))
 print_plus_x_pattern(n)
