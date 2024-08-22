@@ -12,23 +12,47 @@ Basically you need to answer the following questions in your essay:
 - How many parameters does the function take?
 - How do you call this function?
 '''
-
-def amazing_pattern_printer(size):
+def print_plus_x_pattern(size):
     i = 0
     j = 0
-    while i < size:
-        while j < size:
-            if j == i:
-                print(end="0")
+    for i in range(size):
+        for j in range(size):
+            if i == j or i + j == size - 1:
+                print('X', end='')
+            elif i == size // 2 or j == size // 2:
+                print('X', end='')
+            elif i == (size/2) -1 or j == (size/2) -1:
+                print('X', end='')
             else:
-                print(end="X")
+                print('0', end='')
             j += 1
         print()
         i += 1
         j = 0
 
-user = int(input('Enter the size:'))
-amazing_pattern_printer(user)
+
+n = int(input("Enter the matrix size: "))
+print_plus_x_pattern(n)
+
+
+#def amazing_pattern_printer(size):
+#    i = 0
+#    j = 0
+#    while i < size:
+#        while j < size:
+#            if i == j or i + j == size -1:
+#                print(end="X")
+#
+#            else:
+#                print(end="0")
+#            j += 1
+#        print()
+#        i += 1
+#        j = 0
+
+#user = int(input('Enter the size:'))
+#amazing_pattern_printer(user)
+
 # The function amazing pattern printer takes the parameter '5' which is definedd when the function is called on line 30
 # i and j are both equated to the values 0
 # On line 19, a while loop is used, the algorithm will enter the loop until i is not less than 5
