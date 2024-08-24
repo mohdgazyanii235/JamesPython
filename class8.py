@@ -3,5 +3,5 @@ grades = [
     "HELLO THERE[My, Name, Is, Mohamed]"
 ]
 
-print(grades[1][16])
+print(grades[1][16 : 20])
 
