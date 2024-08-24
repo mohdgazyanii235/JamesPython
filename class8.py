@@ -57,3 +57,5 @@ James_array = [
 
 # --- BELOW THIS ---
 print(James_array[0][0][0])
+print(James_array[1][1][1])
+print(James_array[3][1][1][2][1])
