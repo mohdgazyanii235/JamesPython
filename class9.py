@@ -3,17 +3,14 @@ num = int(input('Enter a umber: '))
 
 def numberExists(question, num):
     i = 0
-    x = len(question)
-    while i < x:
+    found = False
+    while i < len(question):
         if num == question[i]:
-            return True
+            found = True
         i += 1 
-    return False
+    
+    return found
+
+
 answer = numberExists(question, num)
 print(answer)
-
-
-
-
-    # check if num exists in question?
-    # return true if it exists, return false if it doesn't exist.
