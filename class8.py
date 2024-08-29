@@ -59,30 +59,47 @@ James_array = [
 print(James_array[0][0][0])
 print(James_array[1][1][1])
 print(James_array[3][1][1][2][1])
-
-
+print(James_array[3][1][0][0][0] + James_array[3][1][0][0][1])
+print(James_array[2][0][0][0] + James_array[2][0][2][2])
+print(James_array[3][0][1][0][1] - James_array[3][0][1][2][2])
+print(James_array[2][1][0][0] / James_array[0][1][0])
+print(James_array[0][2][0] + James_array[1][1][1] + James_array[2][0][0][2])
+print(James_array[0][2][2] * James_array[2][2][1][0])
+print((James_array[2][2][1][1] + James_array[3][0][0][1][1]) - James_array[1][1][0])
+print(James_array[1][1][2] + James_array[2][2][1][2] + James_array[3][1][1][2][2])
+print(James_array[2][1][1][0] - James_array[1][2][1])
+print(James_array[2][0][1][1] + James_array[2][2][0][2] + James_array[1][0][2])
+print(James_array[3][0][0][2][2] + James_array[3][0][0][0][2])
+print((James_array[1][0][0] + James_array[1][2][2]) - James_array[1][2][0])
+print((James_array[3][0][0][0][0] * James_array[2][2][2][1]) + James_array[2][1][1][1])
+print(James_array[0][0][2] + James_array[2][0][1][0] + James_array[3][0][1][2][0])
+print((James_array[2][1][2][2] / James_array[0][1][2]) + James_array[3][0][0][0][1])
+print(James_array[2][1][2][1] + James_array[3][0][0][2][1] + James_array[3][1][1][1][1])
+print((James_array[3][0][1][1][2] * James_array[0][0][1]) - James_array[2][0][2][0])
+print(James_array[2][2][0][1] - James_array[2][1][0][1])
+print((James_array[0][1][1] + James_array[0][2][1]) + James_array[3][0][1][2][1])
 # --- MORE HOME WORK --- #
 '''
--   Print the value 14.
--   Print the total of the arithmetic sum of 64 + 65.
--   Print the product of 19 and 27.
--   Print the result of subtracting 56 from 63.
--   Print the total answer of dividing 28 by 4.
--   Print the sum of 7, 14, and 21.
--   Print the result of multiplying 9 by 40.
--   Print the total answer of adding 41 to 50, then subtracting 13 from the result.
--   Print the sum of 15, 42, and 81.
--   Print the difference between 17 and 31.
--   Print the product of 23, 39, and 12.
--   Print the total answer of the arithmetic sum of 54 and 48.
--   Print the difference between 16 and the sum of 10 and 18.
--   Print the result of multiplying 46 by 44, then adding 32 to the result.
--   Print the sum of 3, 22, and 61.
--   Print the total answer of dividing 36 by 6 and then adding it to 47.
--   Print the sum of 35, 53, and 77.
--   Print the result of multiplying 60 by 2, then subtracting 25 from the result.
--   Print the total answer of the arithmetic difference between 29 and 38.
--   Print the result of adding 62 to the product of 5 and 8.
+*-   Print the value 14.
+*-   Print the total of the arithmetic sum of 64 + 65.
+*-   Print the product of 19 and 27.
+*-   Print the result of subtracting 56 from 63.
+*-   Print the total answer of dividing 28 by 4.
+*-   Print the sum of 7, 14, and 21.
+*-   Print the result of multiplying 9 by 40.
+*-   Print the total answer of adding 41 to 50, then subtracting 13 from the result.
+*-   Print the sum of 15, 42, and 81.
+*-   Print the difference between 17 and 31.
+*-   Print the product of 23, 39, and 12.
+*-   Print the total answer of the arithmetic sum of 54 and 48.
+*-   Print the difference between 16 and the sum of 10 and 18.
+*-   Print the result of multiplying 46 by 44, then adding 32 to the result.
+*-   Print the sum of 3, 22, and 61.
+*-   Print the total answer of dividing 36 by 6 and then adding it to 47.
+*-   Print the sum of 35, 53, and 77.
+*-   Print the result of multiplying 60 by 2, then subtracting 25 from the result.
+*-   Print the total answer of the arithmetic difference between 29 and 38.
+*-   Print the result of adding 62 to the product of 5 and 8.
 '''
 
 ### SOLUTIONS ###
